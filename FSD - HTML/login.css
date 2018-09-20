@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid black;
+    border-color: blue;
+}
+#table{
+    padding-left: 550px;
+}
+
+h3{
+padding-right:50px;
+color:brown;
+font-weight:bold;
+text-align: center;
+}
+
+body {
+    background-color: RGB(215, 189, 226);
+}
+
+#audio{
+font-weight:bold;
+color: blue;
+}
+#video{
+font-weight:bold;
+color: blue;
+}
+
+#button{
+    background-color:darkgoldenrod;
+    color:white;
+    font-weight: bold;
+  
+}
+#final{
+      padding-left: 80px;
+}
+

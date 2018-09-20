@@ -1,0 +1,37 @@
+body {
+    background-color: RGB(215, 189, 226);
+}
+
+h3{
+padding-right:50px;
+color:brown;
+font-weight:bold;
+text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-color: blue;
+}
+#date{
+    width:97%;
+}
+
+#one{
+    padding-left: 470px;
+}
+
+#last{
+    padding-left: 120px;
+}
+
+label{
+    color:green;
+    font-weight:bold;
+}
+
+#button{
+    background-color:darkgoldenrod;
+    color:white;
+    font-weight: bold;
+}

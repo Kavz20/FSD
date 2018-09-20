@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+
+<body>
+    <h3>REGISTRATION FORM</h3>
+    <div id="one">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" placeholder="Enter Name" required=""></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" placeholder="Enter Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile Number</label></td>
+                    <td><input type="text"  name="mobile" pattern="\d{10}" title="Should be 10 digits" placeholder="Enter Mobilenumber"></td>
+                </tr>  
+                 <tr>
+                    <td><label for="pan">PANID</label></td>
+                    <td><input type="pan" name="pan" pattern="\d\w" title="Alphanumeric Field" placeholder="Enter PanID"></td>
+                </tr>           
+            </table>
+            <br><br>
+            <div id="last">
+                <input type="Submit" id="button" value="Register" />
+            </div>
+    </div>
+    </form>
+</body>
+
+</html>
