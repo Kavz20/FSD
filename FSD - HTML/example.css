@@ -1,0 +1,58 @@
+body {
+    background-color: RGB(215, 189, 226);
+}
+
+h2 {
+    color:brown;
+    margin-left: 20px;
+	font-weight:bold;
+	text-align:center;
+}
+#imgone{
+alt:50px;
+width:50px;
+margin-left:1200px;
+}
+
+#spanone{
+font-style:italic;
+color:red;
+font-weight:bold;
+}
+
+h3{
+padding-right:50px;
+color:Tomato;
+font-weight:bold;
+}
+#profile{
+font-weight:bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+border-color:yellow;
+width:0%;,
+}
+
+th{
+color:RGB(100,30,22);
+font-weight:bold;
+
+}
+
+#trone{
+ background-color: RGB(133, 193, 233)
+}
+#trtwo{
+ background-color: RGB(163, 228, 215)
+}
+#trthree{
+ background-color: RGB(250, 219, 216)
+
+}
+#a{
+font-weight:bold;
+color:blue;
+}
+
