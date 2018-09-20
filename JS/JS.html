@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Javascript</title>    
+        <link rel="stylesheet" type="text/css" href="Sample.css">
+        </head>
+<body>
+    <div id="main">
+ <h3>Javascript Functionalities</h3><br>
+<label>First Name</label>
+ <input type="text" id="no1"><br><br>
+<label>Last Name</label>
+ <input type="text" id="no2"><br><br>
+<label>Age</label>
+<input type="text" id="no3"><br><br>
+<label>Location</label>
+<input type="text" id="no4"><br><br>
+<label>Mobile Number</label>
+<input type="text" id="no5"><br><br>
+<br><br>
+<input type="submit" value="Submit" id="submit" onclick=add()>
+<br><br>
+</div>
+<div id="table">
+     <h3>PROFILE DETAILS - TABULAR VIEW</h3><br><br>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Location</th>
+            <th>Mobile Number</th>
+        </tr>
+        <tr>
+            <td id="data1"></td>
+               <td id="data2"></td>
+                  <td id="data3"></td>
+                  <td id="data4"></td>
+                  <td id="data5"></td>
+        </tr>
+        </table>
+    </div>
+<script "text/javascript">
+window.onload = function() {
+  document.getElementById('table').style.display = "none";
+};
+function add()
+{   
+    document.getElementById('main').style.display = "none"; 
+document.getElementById('table').style.display = "block";
+var n1=document.getElementById("no1").value;
+var n2=document.getElementById("no2").value;
+var n3=document.getElementById("no3").value;
+var n4=document.getElementById("no4").value;
+var n5=document.getElementById("no5").value;
+document.getElementById('data1').innerHTML=n1;
+document.getElementById('data2').innerHTML=n2;
+document.getElementById('data3').innerHTML=n3;
+document.getElementById('data4').innerHTML=n4;
+document.getElementById('data5').innerHTML=n5;
+
+}
+</script>
+</body>
+</html>
+

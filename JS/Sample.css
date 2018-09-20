@@ -1,0 +1,19 @@
+table,th,td{
+      border: 1px solid black;
+      background-color: lightsalmon;
+    
+
+}
+th{
+      color:darkblue;
+      font-weight: bold;
+}
+
+h3{
+      text-align: center;
+color: brown;
+font-weight: bold;
+}
+body{
+      background-color: skyblue;
+}
